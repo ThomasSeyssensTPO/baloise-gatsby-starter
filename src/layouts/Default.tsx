@@ -1,47 +1,33 @@
+import * as React from "react";
+import { useBaloiseDesignSystem } from "@baloise/design-system-components-react";
 import {
-    balIconArrowsRoundLeft,
-    balIconCheckCircle,
-    balIconAlertTriangle,
     balIconContact,
     balIconCaretRight,
-    balIconCaretLeft,
-    balIconCall,
-    balIconBack,
-    balIconRefresh,
 } from "@baloise/design-system-icons";
-import {
-    useBaloiseDesignSystem,
-} from "@baloise/design-system-components-react";
-import React from "react";
 
 type DefaultLayoutProps = {
-    children: any;
-}
+    title: string;
+};
 
-const DefaultLayout: React.FC<DefaultLayoutProps> = ({
-    children
-}) => {
+// markup
+const DefaultLayout: React.FC<DefaultLayoutProps> = ({ title, children }) => {
     useBaloiseDesignSystem({
         defaults: {
             icons: {
-                balIconArrowsRoundLeft,
-                balIconCheckCircle,
-                balIconAlertTriangle,
                 balIconContact,
                 balIconCaretRight,
-                balIconCaretLeft,
-                balIconCall,
-                balIconBack,
-                balIconRefresh,
             },
-            region: "BE",
-            language: "nl",
         },
     });
 
     return (
-        <>{children}</>
-    )
-}
+        <div>
+            <main>
+                <title>{title}</title>
+                {children}
+            </main>
+        </div>
+    );
+};
 
 export default DefaultLayout;

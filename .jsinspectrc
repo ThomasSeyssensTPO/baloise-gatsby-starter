@@ -1,0 +1,4 @@
+{
+    "ignore": "public|.cache|coverage|styleguide|src/mocks",
+    "threshold": 30
+}

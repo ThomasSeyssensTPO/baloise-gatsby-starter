@@ -1,0 +1,7 @@
+/.cache/*
+/.git/*
+/bin/*
+/coverage/*
+/docs/*
+/node_modules/*
+/public/*

@@ -1,0 +1,44 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "plugins": ["@typescript-eslint", "graphql", "smells", "react-hooks"],
+    "rules": {
+        "linebreak-style": ["error", "unix"],
+        "no-console": 1,
+        "smells/no-switch": 1,
+        "smells/no-complex-switch-case": 1,
+        "smells/no-setinterval": 1,
+        "smells/no-this-assign": 1,
+        "smells/no-complex-string-concat": 1,
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": [
+          "warn", {
+            "additionalHooks": "useRecoilCallback"
+          }
+        ],
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": "error"
+    },
+    "settings": {
+        "react": {
+            "version": "16.8"
+        }
+    },
+    "env": {
+        "node": true,
+        "es6": true,
+        "jest": true
+    },
+    "overrides": [
+        {
+          "files": ["**/*.tsx"],
+          "rules": {
+            "no-undef": 0
+          }
+        }
+      ]
+}

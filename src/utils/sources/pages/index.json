@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Index",
+        "startUrl": "/",
+        "group": "index",
+        "paths": { "nl-BE": "/nl-BE", "fr-BE": "/fr-BE" }
+    }
+]

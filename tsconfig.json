@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "target": "es2019",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "lib": ["es2019", "dom", "dom.iterable", "ES2021.String"],
+        "strict": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "./build",
+        "rootDir": "./",
+        "jsx": "react",
+        "baseUrl": ".",
+        "paths": {
+            "lead-generator-frontend-components/build": [
+                "node_modules/lead-generator-frontend-components/build"
+            ],
+            "@assets/*": ["src/assets/*"],
+            "@assets": ["src/assets/"],
+            "@containers/*": ["src/containers/*"],
+            "@containers": ["src/containers/"],
+            "@components/*": ["src/components/*"],
+            "@components": ["src/components/"],
+            // "@hooks/*": ["src/hooks/*"], // Doesn't work, don't know why
+            // "@hooks": ["src/hooks/"], // Doesn't work, don't know why
+            // "@images/*": ["src/images/*"], // Not used for now, maybe in the future
+            // "@images": ["src/images"], // Not used for now, maybe in the future
+            "@interfaces/*": ["src/interfaces/*"],
+            "@interfaces": ["src/interfaces/"],
+            // "@pages/*": ["src/pages/*"], // Not used for now, maybe in the future
+            // "@pages": ["src/pages"], // Not used for now, maybe in the future
+            "@states/*": ["src/states/*"],
+            "@states": ["src/states/"],
+            // "@styles/*": ["src/styles/*"], // Doesn't work, don't know why
+            // "@styles": ["src/styles/"], // Doesn't work, don't know why
+            "@templates/*": ["src/templates/*"],
+            "@templates": ["src/templates/"],
+            "@utils/*": ["src/utils/*"],
+            "@utils": ["src/utils/"],
+        },
+        "importHelpers": true
+    },
+    "exclude": []
+}

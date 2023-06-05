@@ -1,0 +1,629 @@
+yarn run v1.22.19
+warning package.json: "dependencies" has dependency "axios" with range "^0.19.0" that collides with a dependency in "devDependencies" of the same name with version "^1.4.0"
+$ gatsby clean && yarn copy:fonts && gatsby build --prefix-paths
+info Deleting .cache, public, /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/node_modules/.cache/babel-loader,
+/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/node_
+modules/.cache/terser-webpack-plugin
+
+[2K[1A[2K[Ginfo Successfully deleted directories
+
+warning package.json: "dependencies" has dependency "axios" with range "^0.19.0" that collides with a dependency in "devDependencies" of the same name with version "^1.4.0"
+$ copyfiles --flat ../../node_modules/@baloise/design-system-fonts/lib/* public/assets/fonts
+warn Plugin @danbruegge/gatsby-plugin-stylelint is not compatible with your
+gatsby version 4.4.0 - It requires gatsby@^2.0.0-rc.0
+
+[2K[1A[2K[Gwarn Plugin @danbruegge/gatsby-plugin-stylelint is not compatible with your
+gatsby version 4.4.0 - It requires gatsby@^2.0.0-rc.0
+
+[2K[1A[2K[Gsuccess open and validate gatsby-configs, load plugins - 2.834s
+
+[2K[1A[2K[Gwarn gatsby-plugin-react-helmet: Gatsby now has built-in support for modifying
+the document head. Learn more at https://gatsby.dev/gatsby-head
+
+[2K[1A[2K[Gsuccess onPreInit - 0.013s
+
+[2K[1A[2K[Gsuccess delete html and css files from previous builds - 0.023s
+
+[2K[1A[2K[Gsuccess initialize cache - 0.140s
+
+[2K[1A[2K[Gsuccess copy gatsby files - 0.207s
+
+[2K[1A[2K[Gsuccess Compiling Gatsby Functions - 1.616s
+
+[2K[1A[2K[Gsuccess onPreBootstrap - 1.647s
+
+[2K[1A[2K[Gsuccess createSchemaCustomization - 0.018s
+
+[2K[1A[2K[Gsuccess gatsby-i18next: create node: nl-BE/translations - 0.389s
+
+[2K[1A[2K[Gsuccess gatsby-i18next: create node: fr-BE/translations - 0.386s
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.001s
+
+[2K[1A[2K[Gsuccess source and transform nodes - 1.161s
+
+[2K[1A[2K[Ginfo Writing GraphQL type definitions to /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/.cache/schema.gql
+
+[2K[1A[2K[Gsuccess building schema - 3.849s
+
+[2K[1A[2K[Gsuccess createPages - 0.007s
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: {
+  name: 'Index',
+  startUrl: '/',
+  group: 'index',
+  paths: { 'nl-BE': '/nl-BE', 'fr-BE': '/fr-BE' }
+}
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: undefined
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: undefined
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: {
+  name: 'DealerBeforeWeStart',
+  startUrl: '/Dealer/BeforeWeStart/',
+  group: 'start',
+  theme: 'Dealer',
+  paths: {
+    'nl-BE': '/nl-BE/handelaar/voor-we-starten/',
+    'fr-BE': '/fr-BE/marchand/avant-commencez/'
+  },
+  fields: [
+    {
+      name: 'cartype',
+      testtag: 'ford-cartype',
+      type: 'radiogroup',
+      appearance: 'card',
+      label: 'dealer.beforewestart.cartype.label',
+      options: [Array],
+      validation: [Object]
+    },
+    {
+      name: 'subtext',
+      type: 'dividertitle',
+      appearance: 'label',
+      label: 'dealer.beforewestart.checkbox.title'
+    },
+    {
+      name: 'professionalUsage',
+      testtag: 'ford-professionalusage',
+      type: 'checkbox',
+      appearance: 'checkbox',
+      label: 'dealer.beforewestart.checkbox.professional',
+      subtext: 'dealer.beforewestart.checkbox.professional.description',
+      validation: [Object]
+    },
+    {
+      name: 'lightLoadVehicle',
+      testtag: 'ford-lightloadvehicle',
+      type: 'checkbox',
+      appearance: 'checkbox',
+      label: 'dealer.beforewestart.checkbox.lightload',
+      subtext: 'dealer.beforewestart.checkbox.lightload.description',
+      validation: [Object]
+    }
+  ],
+  navigation: { next: 'DealerCarDescription' }
+}
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: undefined
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: undefined
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: {
+  name: '404',
+  startUrl: '/Simulator/404/',
+  group: '404',
+  paths: {
+    'nl-BE': '/nl-BE/simulator/404/',
+    'fr-BE': '/fr-BE/simulateur/404/'
+  }
+}
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: {
+  name: '500',
+  startUrl: '/Simulator/500/',
+  group: '500',
+  paths: {
+    'nl-BE': '/nl-BE/simulator/500/',
+    'fr-BE': '/fr-BE/simulateur/500/'
+  }
+}
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: {
+  name: 'BeforeWeStart',
+  startUrl: '/Simulator/BeforeWeStart/',
+  group: 'start',
+  theme: 'Simulator',
+  paths: {
+    'nl-BE': '/nl-BE/simulator/voor-we-starten/',
+    'fr-BE': '/fr-BE/simulateur/avant-commencez/'
+  },
+  navigation: { next: 'CarDescription' },
+  fields: [
+    {
+      name: 'cartype',
+      testtag: 'ford-cartype',
+      type: 'radiogroup',
+      appearance: 'card',
+      label: 'simulator.beforewestart.cartype.label',
+      options: [Array],
+      validation: [Object]
+    },
+    {
+      name: 'subtext',
+      type: 'dividertitle',
+      appearance: 'label',
+      label: 'simulator.beforewestart.checkbox.title'
+    },
+    {
+      name: 'professionalUsage',
+      testtag: 'ford-professionalusage',
+      type: 'checkbox',
+      appearance: 'checkbox',
+      label: 'simulator.beforewestart.checkbox.professional',
+      subtext: 'simulator.beforewestart.checkbox.professional.description',
+      validation: [Object]
+    },
+    {
+      name: 'lightLoadVehicle',
+      testtag: 'ford-lightloadvehicle',
+      type: 'checkbox',
+      appearance: 'checkbox',
+      label: 'simulator.beforewestart.checkbox.lightload',
+      subtext: 'simulator.beforewestart.checkbox.lightload.description',
+      validation: [Object]
+    }
+  ]
+}
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: undefined
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: undefined
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: {
+  name: 'ContactMe',
+  startUrl: '/Simulator/ContactMe/',
+  group: 'index',
+  theme: 'Simulator',
+  paths: {
+    'nl-BE': '/nl-BE/simulator/contacteer-mij',
+    'fr-BE': '/fr-BE/simulateur/contactez-moi'
+  },
+  navigation: { prev: 'InsuranceChoice', next: 'ContactThankYou' },
+  fields: [
+    {
+      name: 'firstname',
+      testtag: 'ford-firstname',
+      additionalclasses: 'column is-half',
+      type: 'text',
+      appearance: 'text',
+      label: 'simulator.contact.firstname',
+      info: 'simulator.contact.firstname.info',
+      width: 'is-full',
+      validation: [Object]
+    },
+    {
+      name: 'lastname',
+      testtag: 'ford-lastname',
+      additionalclasses: 'column is-half',
+      type: 'text',
+      appearance: 'text',
+      label: 'simulator.contact.lastname',
+      info: 'simulator.contact.lastname.info',
+      width: 'is-full',
+      validation: [Object]
+    },
+    {
+      name: 'companyname',
+      testtag: 'ford-companyname',
+      additionalclasses: 'column is-full',
+      type: 'text',
+      appearance: 'text',
+      label: 'simulator.contact.companyname',
+      info: 'simulator.contact.companyname.info',
+      width: 'is-half',
+      requires: [Object],
+      validation: [Object]
+    },
+    {
+      name: 'phone',
+      testtag: 'ford-phone',
+      additionalclasses: 'column is-full',
+      type: 'text',
+      appearance: 'text',
+      label: 'simulator.contact.phone',
+      info: 'simulator.contact.phone.info',
+      width: 'is-one-third',
+      validation: [Object]
+    },
+    {
+      name: 'email',
+      testtag: 'ford-email',
+      additionalclasses: 'column is-full',
+      type: 'text',
+      appearance: 'text',
+      label: 'simulator.contact.email',
+      info: 'simulator.contact.email.info',
+      width: 'is-half',
+      validation: [Object]
+    },
+    {
+      name: 'remark',
+      testtag: 'ford-remark',
+      additionalclasses: 'column is-full',
+      type: 'textarea',
+      appearance: 'textear',
+      label: 'simulator.contact.remark',
+      info: 'simulator.contact.remark.info',
+      width: 'is-full',
+      validation: [Object]
+    },
+    {
+      name: 'consent',
+      testtag: 'ford-consent',
+      additionalclasses: 'column is-full',
+      type: 'checkbox',
+      appearance: 'light',
+      label: 'simulator.contact.checkbox.consent',
+      validation: [Object]
+    }
+  ]
+}
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: undefined
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: {
+  name: 'InsuranceChoice',
+  startUrl: '/Simulator/InsuranceChoice/',
+  group: 'index',
+  theme: 'Simulator',
+  paths: {
+    'nl-BE': '/nl-BE/simulator/kies-jouw-verzekering',
+    'fr-BE': '/fr-BE/simulateur/choissis-votre-insurance'
+  },
+  navigation: { prev: 'CarDescription', next: 'ContactMe' }
+}
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: {
+  name: 'ContactThankYou',
+  startUrl: '/Simulator/Contact/ThankYou/',
+  group: 'index',
+  theme: 'Simulator',
+  paths: {
+    'nl-BE': '/nl-BE/simulator/contacteer-mij/bedankt',
+    'fr-BE': '/fr-BE/simulateur/contactez-moi/merci'
+  }
+}
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: {
+  name: 'EmailThankYou',
+  startUrl: '/Simulator/Email/ThankYou/',
+  group: 'index',
+  theme: 'Simulator',
+  paths: {
+    'nl-BE': '/nl-BE/simulator/e-mail/bedankt',
+    'fr-BE': '/fr-BE/simulateur/e-mail/merci'
+  }
+}
+
+[2K[1A[2K[G🚀 ~ file: OnCreatePage.js:14 ~ onCreatePage ~ foundPage: {
+  name: 'HelpThankYou',
+  startUrl: '/Simulator/Help/ThankYou/',
+  group: 'index',
+  theme: 'Simulator',
+  paths: {
+    'nl-BE': '/nl-BE/simulator/help/bedankt',
+    'fr-BE': '/fr-BE/simulateur/help/merci'
+  }
+}
+
+[2K[1A[2K[Gsuccess createPagesStatefully - 2.090s
+
+[2K[1A[2K[Ginfo Total nodes: 61, SitePage nodes: 30 (use --verbose for breakdown)
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.001s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 14.117s
+
+[2K[1A[2K[Gwarn The GraphQL query in the non-page component "/Users/thomasseyssens/Two
+Point O/Baloise/LeadGenerator-Frontend/apps/Ford/src/pages/Dealer/404.tsx" will
+not be run.
+
+[2K[1A[2K[Gwarn The GraphQL query in the non-page component "/Users/thomasseyssens/Two
+Point O/Baloise/LeadGenerator-Frontend/apps/Ford/src/pages/Dealer/500.tsx" will
+not be run.
+
+[2K[1A[2K[GExported queries are only executed for Page components. It's possible you're
+trying to create pages in your gatsby-node.js and that's failing for some
+reason.
+
+If the failing component(s) is a regular component and not intended to be a page
+component, you generally want to use a <StaticQuery>
+(https://gatsbyjs.org/docs/static-query)
+instead of exporting a page query.
+
+If you're more experienced with GraphQL, you can also export GraphQL
+fragments from components and compose the fragments in the Page component
+query and pass data down into the child component —
+https://graphql.org/learn/queries/#fragments
+
+[2K[1A[2K[Gsuccess write out redirect data - 0.003s
+
+[2K[1A[2K[Gsuccess onPostBootstrap - 0.003s
+
+[2K[1A[2K[Ginfo bootstrap finished - 29.346s
+
+[2K[1A[2K[Gsuccess write out requires - 0.019s
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/_variables.scss: When
+linting something other than CSS, you should install an appropriate syntax, e.g.
+ "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/button.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/card.scss: When
+ linting something other than CSS, you should install an appropriate syntax,
+e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/checkbox.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/
+src/styles/components/field-message.scss: When linting something other than CSS,
+ you should install an appropriate syntax, e.g. "postcss-scss", and use the
+"customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/
+src/styles/components/divider-title.scss: When linting something other than CSS,
+ you should install an appropriate syntax, e.g. "postcss-scss", and use the
+"customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/input.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/intro.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/label.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/modal.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/popover.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/navbar.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/
+src/styles/components/radiobutton.scss: When linting something other than CSS,
+you should install an appropriate syntax, e.g. "postcss-scss", and use the
+"customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/select.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/tag.scss: When
+linting something other than CSS, you should install an appropriate syntax, e.g.
+ "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn `isModuleDeclaration` has been deprecated, please migrate to
+`isImportOrExportDeclaration`
+    at isModuleDeclaration (/Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/node_modules/@babel/types/lib/validators/genera
+ted/index.js:3940:35)
+    at PluginPass.Program (/Users/thomasseyssens/Two Point O/Baloise/LeadGenerat
+or-Frontend/node_modules/babel-plugin-lodash/lib/index.js:102:44)
+
+[2K[1A[2K[Gsuccess Building production JavaScript and CSS bundles - 118.930s
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/_variables.scss: When
+linting something other than CSS, you should install an appropriate syntax, e.g.
+ "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/button.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/card.scss: When
+ linting something other than CSS, you should install an appropriate syntax,
+e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/intro.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/
+src/styles/components/divider-title.scss: When linting something other than CSS,
+ you should install an appropriate syntax, e.g. "postcss-scss", and use the
+"customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/input.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/checkbox.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/popover.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/
+src/styles/components/field-message.scss: When linting something other than CSS,
+ you should install an appropriate syntax, e.g. "postcss-scss", and use the
+"customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/modal.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/navbar.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/
+src/styles/components/radiobutton.scss: When linting something other than CSS,
+you should install an appropriate syntax, e.g. "postcss-scss", and use the
+"customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/label.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/select.scss:
+When linting something other than CSS, you should install an appropriate syntax,
+ e.g. "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gwarn /Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/src/styles/components/tag.scss: When
+linting something other than CSS, you should install an appropriate syntax, e.g.
+ "postcss-scss", and use the "customSyntax" option
+
+[2K[1A[2K[Gsuccess Building HTML renderer - 37.556s
+
+[2K[1A[2K[G
+ ERROR
+
+[BABEL] Note: The code generator has deoptimised the styling of
+/Users/thomasseyssens/Two Point
+O/Baloise/LeadGenerator-Frontend/apps/Ford/.cache/page-ssr/routes/render-page.js
+ as it exceeds the max of 500KB.
+
+
+[2K[1A[2K[G
+ ERROR
+
+Event is not defined
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mReferenceError[0m[37m[41m:[0m[37m[41m [0m[97m[41mEvent is not defined[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m16[0m[37m [0m[37mObject._[0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:16:143523[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m2364[0m[37m [0m[37m__webpack_require__[0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:2364:38[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m16[0m[37m [0m[37mObject._[0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:16:80161[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m2364[0m[37m [0m[37m__webpack_require__[0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:2364:38[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m5[0m[37m [0m[37mObject._[0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:5:13[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m2364[0m[37m [0m[37m__webpack_require__[0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:2364:38[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m649[0m[37m [0m[37mObject._[0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:649:15[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m2364[0m[37m [0m[37m__webpack_require__[0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:2364:38[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m244[0m[37m [0m[37mObject._[0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:244:6882[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m2364[0m[37m [0m[37m__webpack_require__[0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:2364:38[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m2384[0m[37m [0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:2384:6347[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m2406[0m[37m [0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:2406:1624[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mrender-page.js[0m[90m:[0m[93m2406[0m[37m [0m[37mObject.<anonymous>[0m
+[0m  [0m  [0m[90m/Users/thomasseyssens/Two Point O/Baloise/LeadGenerator-Frontend/apps/Ford/.[0m
+  [0m  [0m[90mcache/page-ssr/routes/render-page.js:2406:1869[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mv8-compile-cache.js[0m[90m:[0m[93m192[0m[37m [0m[37mModule._compile[0m
+[0m  [0m  [0m[90m[LeadGenerator-Frontend]/[v8-compile-cache]/v8-compile-cache.js:192:30[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mindex.js[0m[90m:[0m[93m136[0m[37m [0m[37mModule._compile[0m
+[0m  [0m  [0m[90m[LeadGenerator-Frontend]/[pirates]/lib/index.js:136:24[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mloader.js[0m[90m:[0m[93m1114[0m[37m [0m[37mModule._extensions..js[0m
+[0m  [0m  [0m[90minternal/modules/cjs/loader.js:1114:10[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mindex.js[0m[90m:[0m[93m141[0m[37m [0m[37mObject.newLoader [as .js][0m
+[0m  [0m  [0m[90m[LeadGenerator-Frontend]/[pirates]/lib/index.js:141:7[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mloader.js[0m[90m:[0m[93m950[0m[37m [0m[37mModule.load[0m
+[0m  [0m  [0m[90minternal/modules/cjs/loader.js:950:32[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mloader.js[0m[90m:[0m[93m790[0m[37m [0m[37mFunction.Module._load[0m
+[0m  [0m  [0m[90minternal/modules/cjs/loader.js:790:12[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mloader.js[0m[90m:[0m[93m974[0m[37m [0m[37mModule.require[0m
+[0m  [0m  [0m[90minternal/modules/cjs/loader.js:974:19[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mhelpers.js[0m[90m:[0m[93m93[0m[37m [0m[37mrequire[0m
+[0m  [0m  [0m[90minternal/modules/cjs/helpers.js:93:18[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mpage-mode.ts[0m[90m:[0m[93m122[0m[37m [0m[37mpreparePageTemplateConfigs[0m
+[0m  [0m  [0m[90m[LeadGenerator-Frontend]/[gatsby]/src/utils/page-mode.ts:122:24[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mbuild.ts[0m[90m:[0m[93m236[0m[37m [0m[37mbuild[0m
+[0m  [0m  [0m[90m[LeadGenerator-Frontend]/[gatsby]/src/commands/build.ts:236:11[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[Gnot finished Execute page configs - 26.354s
+
